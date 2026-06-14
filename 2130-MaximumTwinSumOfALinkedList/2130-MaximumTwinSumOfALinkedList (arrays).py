@@ -9,7 +9,11 @@ class Solution:
         """
         pretty quick solution O(N) but not very fast
 
-        82 ms runtime beats 20% 63 mb memory beats 9%
+        82 ms runtime beats 20% 63 mb memory beats 9% (DONT LOOK AT THIS)
+
+        NVM I WAS MSITAKEN IT WAS CUZ I WAS PRINTING HTE OUTPUTS TO DEBUG LOL
+
+        36 ms runtime beats 99.24%!!!!!!!!
         """
         
         curr = head
@@ -19,7 +23,7 @@ class Solution:
             vals.append(curr.val)
             curr = curr.next
 
-        print(vals)
+        #print(vals)
         n = len(vals)
         res = -1
 
